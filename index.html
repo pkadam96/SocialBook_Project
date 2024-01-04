@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0468fc229f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="searchbox">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>            
+            <div class="user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/panu.jpg">
+            </div>
+        </div>
+    
+        <!-------------------------------Settings Menu-------------------------------->
+
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span>
+                </span>
+            </div>
+            <div class="user-profile">
+                <img src="images/panu.jpg">
+                <div>
+                    <p>Pranoti Kadam</p>
+                   <a href="#">Edit Profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new desing</a>
+                </div>
+            </div>
+            <hr>
+            <div class="setting-links">
+                <img src="images/setting.png" class="setting-icons">
+                <a href="#">Settings <img src="images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="setting-links">
+                <img src="images/help.png" class="setting-icons">
+                <a href="#">Help <img src="images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="setting-links">
+                <img src="images/display.png" class="setting-icons">
+                <a href="#">Display <img src="images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="setting-links">
+                <img src="images/logout.png" class="setting-icons">
+                <a href="#">Logout <img src="images/arrow.png" width="10px"> </a>
+            </div>
+            
+        </div>
+    </nav>
+    <div class="container">
+        <!-------------------------------Left-sidebar-------------------------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png">Latest News</a>
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/group.png">Group</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png">Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+
+        <!-------------------------------Main-content-------------------------------->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/snehal-pic.jpg">
+                    <p>Snehal</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/sanket-story.png">
+                    <p>Sanket</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/saloni-pic.jpg">
+                    <p>Saloni</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/siddhu-pic.jpg">
+                    <p>Siddhesh</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/panu.jpg">
+                    <div>
+                        <p>Pranoti Kadam</p>
+                        <small><i class="fas fa-caret-down"></i>Public</small>
+                    </div>                    
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Pranoti?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feeing/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                    <div class="user-profile">
+                        <img src="images/panu.jpg">
+                        <div>
+                            <p>Pranoti Kadam</p>
+                            <span>Just Now </span>
+                        </div>
+                    </div>                  
+                    
+                <p class="post-text">Created With Heart...Build With the Mind.<i class="fas fa-heart"></i><i class="far fa-grin-hearts"></i><br>
+                <a href="#">#artwork</a><br>
+                <a href="#">#mandalaart</a><br>
+                <a href="#">#mandalas</a><br>
+                <a href="#">#lovemandalas</a></p>
+
+                <img src="images/mandala.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">1</div>
+                        <div><img src="images/comments.png"></div>
+                        <div><img src="images/share.png"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">                
+                <div class="user-profile">
+                    <img src="images/saloni-pic.jpg">
+                    <div>
+                        <p>Saloni Borate</p>
+                        <span>Yesterday 10:30 pm</span>
+                    </div>
+                </div>
+                
+                <p class="post-text">I can't stop being Awesome.<br>It's in my Blood.<br>
+                <a href="#">#selflove</a><br>
+                <a href="#">#selfietime</a><br>
+            
+                <img src="images/saloni-story.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">150</div>
+                        <div><img src="images/comments.png">35</div>
+                        <div><img src="images/share.png">2</div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="post-container">                
+                <div class="user-profile">
+                    <img src="images/snehal-pic.jpg">
+                    <div>
+                        <p>Snehal Sankpal</p>
+                        <span>Yesterday 9:16 am</span>
+                    </div>
+                </div>
+                
+                <p class="post-text">A Smile is the best Makeup any girl can Wear <i class="far fa-smile"></i><br>
+                <a href="#">#smile</a><br>
+                <a href="#">#picoftheday</a><br>
+                <a href="#">#photoshoot</a><br><br>
+                PC:-<a href="#">Rinku Sankpal</a><br>
+            
+                <img src="images/snehi1.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">250</div>
+                        <div><img src="images/comments.png">48</div>
+                        <div><img src="images/share.png">3</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">                
+                <div class="user-profile">
+                    <img src="images/siddhu-pic.jpg">
+                    <div>
+                        <p>Siddhesh Gayake</p>
+                        <span>14 July 5:25 pm</span>
+                    </div>
+                </div>
+                
+                <p class="post-text"><a href="#">Siddhesh Gayake</a> feeling happy with <a href="#">Prasad Gayake</a> and <a href="#">1 other</a><br>Brojaan <i class="far fa-grin-stars"></i><br>
+                
+                <img src="images/siddhesh1.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">300</div>
+                        <div><img src="images/comments.png">54</div>
+                        <div><img src="images/share.png">1</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">                
+                <div class="user-profile">
+                    <img src="images/sanket-story.png">
+                    <div>
+                        <p>Sanket Kadam</p>
+                        <span>11 July 11:35 pm</span>
+                    </div>
+                </div>
+                                
+                <img src="images/sanket-post.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">290</div>
+                        <div><img src="images/comments.png">51</div>
+                        <div><img src="images/share.png"></div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn">Load More</button>
+            
+        </div>
+        <!-------------------------------Right-sidebar------------------------------>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a> 
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>15</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a> 
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a> 
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a> 
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+            
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a> 
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/snehal-pic.jpg">
+                </div>
+                <p>Snehal Sankpal</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/siddhu-pic.jpg">
+                </div>
+                <p>Siddhesh Gayake</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/saloni-pic.jpg">
+                </div>
+                <p>Saloni Borate</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2021-SocialBook Social media website</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
