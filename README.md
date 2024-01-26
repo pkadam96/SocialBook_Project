@@ -1,7 +1,7 @@
 # Socialbook
 Socialbook is a modern user interface for a social media website, enhancing user experience and engagement.
  <br>
- [Socialbook live Demo](https://65b229c4f0cb7b44e069b16c--loquacious-cranachan-383871.netlify.app/)
+ [Socialbook live Demo](https://stellar-zuccutto-405802.netlify.app/)
 
 
 ## Table of Contents
